@@ -3,10 +3,6 @@
 #include <RF24.h>
 #include <DFRobot_MLX90614.h>
 
-// Pins for LEDs and Buzzer
-#define BUZZER_RED_LED_PIN   8
-#define BLUE_LED_PIN  9
-
 // Threshold Temperature
 #define TEMPERATURE_THRESHOLD 40.0
 
@@ -18,6 +14,9 @@ bool vib = false;
 
 void setup() {
   Serial.begin(9600);
+
+  pinMode(2, OUTPUT);
+  
   while(!radio.begin()){
     Serial.print("Not Connected! ...\n");
     delay(2000);
@@ -55,14 +54,12 @@ void loop() {
 
   // Update LEDs and Buzzer based on temperature
   if (objectTemp > TEMPERATURE_THRESHOLD) {
-    digitalWrite(BUZZER_RED_LED_PIN, HIGH);   // Turn on Red LED and Buzzer
-    digitalWrite(BLUE_LED_PIN, LOW);   // Turn off Blue LED
+    digitalWrite(2, HIGH);   // Turn on Red LED and Buzzer
     vib = true;
     radio.write(&vib, sizeof(vib)); // send the message
     
   } else {
-    digitalWrite(BUZZER_RED_LED_PIN, LOW);    // Turn off Red LED
-    digitalWrite(BLUE_LED_PIN, HIGH);  // Turn on Blue LED
+    digitalWrite(2, LOW);    // Turn off Red LED
     vib = false;
     radio.write(&vib, sizeof(vib)); // send the message
   }
