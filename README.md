@@ -160,8 +160,9 @@ This project provides a practical, affordable solution by offering **pre-contact
 #### Alert Components
 | Component | Arduino Pin |
 |-----------|-------------|
-| Buzzer (+) | D2 |
-| LED Anode | D2 (via 220Ω resistor) |
+| Buzzer (+) / LED Anode | D2 (wired in parallel, LED via 220Ω resistor) |
+
+> **Note**: The buzzer and LED share the same output pin (D2) and are wired in parallel. This allows both alert mechanisms to activate simultaneously when the temperature threshold is exceeded.
 
 ### Receiver Unit Wiring
 
