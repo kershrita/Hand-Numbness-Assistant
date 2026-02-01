@@ -8,7 +8,7 @@ An assistive wearable device designed to help people with hand numbness safely i
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Problem Statement](#problem-statement)
@@ -28,13 +28,13 @@ An assistive wearable device designed to help people with hand numbness safely i
 
 ---
 
-## 🎯 Overview
+## Overview
 
 The Hand Numbness Assistant is an Arduino-based wearable system that uses the **MLX90614 Non-Contact IR Temperature Sensor** to detect object temperatures without physical contact. This device helps individuals who suffer from conditions like peripheral neuropathy, diabetes-related numbness, or other sensory impairments by alerting them when an object is too hot or cold to safely touch.
 
 ---
 
-## 💡 Problem Statement
+## Problem Statement
 
 People with hand numbness face a significant daily challenge: they cannot feel temperature differences through touch. This puts them at risk of:
 
@@ -46,7 +46,7 @@ This project provides a practical, affordable solution by offering **pre-contact
 
 ---
 
-## ✨ Features
+## Features
 
 - **Non-Contact Temperature Sensing**: Measures object temperature without touching it
 - **Wireless Communication**: Uses nRF24L01 radio modules for transmitter-receiver communication
@@ -59,7 +59,7 @@ This project provides a practical, affordable solution by offering **pre-contact
 
 ---
 
-## 🔧 Hardware Requirements
+## Hardware Requirements
 
 ### Transmitter Unit (Temperature Sensing Module)
 
@@ -88,7 +88,7 @@ This project provides a practical, affordable solution by offering **pre-contact
 
 ---
 
-## 📦 Software Dependencies
+## Software Dependencies
 
 ### Arduino Libraries Required
 
@@ -106,7 +106,7 @@ This project provides a practical, affordable solution by offering **pre-contact
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -134,7 +134,7 @@ This project provides a practical, affordable solution by offering **pre-contact
 
 ---
 
-## 🔌 Circuit Connections
+## Circuit Connections
 
 ### Transmitter Unit Wiring
 
@@ -186,7 +186,7 @@ This project provides a practical, affordable solution by offering **pre-contact
 
 ---
 
-## 📥 Installation
+## Installation
 
 ### Step 1: Install Arduino IDE
 
@@ -228,7 +228,7 @@ cd Hand-Numbness-Assistant
 
 ---
 
-## 🚀 Usage
+## Usage
 
 1. **Power On**: Connect both transmitter and receiver units to their power sources.
 
@@ -250,7 +250,7 @@ cd Hand-Numbness-Assistant
 
 ---
 
-## 🖨️ 3D Printed Parts
+## 3D Printed Parts
 
 Custom enclosures are provided in the `3d parts/` directory:
 
@@ -270,7 +270,7 @@ Custom enclosures are provided in the `3d parts/` directory:
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ### Adjusting Temperature Threshold
 
@@ -300,7 +300,7 @@ Refer to `emissivity values table.xlsx` for common material emissivity values.
 
 ---
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
 ### Common Issues and Solutions
 
@@ -320,39 +320,31 @@ Refer to `emissivity values table.xlsx` for common material emissivity values.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting a pull request.
 
 ### Ways to Contribute
 
-- 🐛 Report bugs and issues
-- 💡 Suggest new features
-- 📝 Improve documentation
-- 🔧 Submit code improvements
-- 🖨️ Share improved 3D print designs
+- Report bugs and issues
+- Suggest new features
+- Improve documentation
+- Submit code improvements
+- Share improved 3D print designs
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 📞 Contact
+## Contact
 
 **Ashraf Abdulkhaliq**
 
 - GitHub: [@kershrita](https://github.com/kershrita)
-
----
-
-## 🙏 Acknowledgments
-
-- [DFRobot](https://www.dfrobot.com/) for the MLX90614 library
-- [TMRh20](https://github.com/nRF24/RF24) for the RF24 library
-- [Adafruit](https://www.adafruit.com/) for the display libraries
 
 ---
 
