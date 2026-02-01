@@ -2,7 +2,7 @@
 
 Thank you for your interest in contributing to the Hand Numbness Assistant project! This guide will help you get started with contributing to our assistive technology project.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Code of Conduct](#code-of-conduct)
 - [Getting Started](#getting-started)
@@ -15,7 +15,7 @@ Thank you for your interest in contributing to the Hand Numbness Assistant proje
 
 ---
 
-## 📜 Code of Conduct
+## Code of Conduct
 
 By participating in this project, you agree to maintain a respectful and inclusive environment. Please:
 
@@ -26,7 +26,7 @@ By participating in this project, you agree to maintain a respectful and inclusi
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -52,7 +52,7 @@ Before contributing, make sure you have:
 
 ---
 
-## 🤝 How to Contribute
+## How to Contribute
 
 ### Types of Contributions
 
@@ -60,12 +60,12 @@ We welcome various types of contributions:
 
 | Type | Description |
 |------|-------------|
-| 🐛 Bug Fixes | Fix issues in the existing code |
-| ✨ Features | Add new functionality |
-| 📝 Documentation | Improve or add documentation |
-| 🖨️ 3D Parts | Improve or create new enclosure designs |
-| 🧪 Testing | Test the hardware and report results |
-| 🌍 Translations | Help translate documentation |
+| Bug Fixes | Fix issues in the existing code |
+| Features | Add new functionality |
+| Documentation | Improve or add documentation |
+| 3D Parts | Improve or create new enclosure designs |
+| Testing | Test the hardware and report results |
+| Translations | Help translate documentation |
 
 ### Finding Things to Work On
 
@@ -75,7 +75,7 @@ We welcome various types of contributions:
 
 ---
 
-## 💻 Development Setup
+## Development Setup
 
 ### Setting Up Arduino Development Environment
 
@@ -112,7 +112,7 @@ Hand-Numbness-Assistant/
 
 ---
 
-## 📐 Coding Guidelines
+## Coding Guidelines
 
 ### Arduino Code Style
 
@@ -165,7 +165,7 @@ Hand-Numbness-Assistant/
 
 ---
 
-## 📤 Submitting Changes
+## Submitting Changes
 
 ### Creating a Pull Request
 
@@ -217,7 +217,7 @@ Hand-Numbness-Assistant/
 
 ---
 
-## 🐛 Reporting Issues
+## Reporting Issues
 
 ### Before Creating an Issue
 
@@ -264,41 +264,6 @@ Include the following information:
 ## Additional Information
 [Any other relevant details]
 ```
-
----
-
-## 💡 Feature Requests
-
-We welcome ideas for improving the Hand Numbness Assistant!
-
-### Suggesting a Feature
-
-1. Check if the feature has already been requested
-2. Create a new issue with the label `enhancement`
-3. Include:
-   - Clear description of the feature
-   - Use case / problem it solves
-   - Proposed implementation (if you have ideas)
-   - Any relevant examples or references
-
-### Feature Ideas We're Interested In
-
-- Additional alert methods (visual displays, app notifications)
-- Improved power management for longer battery life
-- Temperature logging/history features
-- Multiple temperature thresholds (hot/cold warnings)
-- Improved 3D printed enclosure designs
-- Mobile app companion
-
----
-
-## 📞 Questions?
-
-If you have questions about contributing:
-
-1. Check the [README.md](README.md) for project information
-2. Look through existing issues and discussions
-3. Create a new issue with the `question` label
 
 ---
 
